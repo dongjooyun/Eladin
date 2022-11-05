@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./cart.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
+    <script src="./cart.js" defer type="module"></script>
+    <script src="https://kit.fontawesome.com/91abb88819.js" crossorigin="anonymous" defer></script>
+    <title>cart</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a>nav1</a>
+        <a>nav2</a>
+        <a>nav3</a>
+        <a>nav4</a>
+        <a>nav5</a>
+        <a>nav6</a>
+      </nav>
+      <h1 class="header">장바구니</h1>
+    </header>
+    <main>
+      <section class="container">
+        <div class="select_container">
+          <div class="select_box">
+            <button id="selectAll_btn" class="select_btn checked"></button>
+            <label for="selectAll_btn">전체선택</label>
+          </div>
+          <div class="delete_box">
+            <label for="delete_btn">전체삭제</label>
+            <button id="deleteall_btn">❌</button>
+          </div>
+        </div>
+        <div class="item-container"></div>
+      </section>
+      <section class="orderbar">
+        <div class="priceTag">총금액 :</div>
+        <button class="order_btn">주문하기</button>
+      </section>
+      <section class="orderpage">
+        <form class="form_container">
+          <div class="label_container">
+            <span class="tag is-success">주문상세 페이지</span>
+            <button class="button is-success is-focused">주문수정</button>
+          </div>
+          <div class="field">
+            <label class="label">수령자 이름</label>
+            <div class="control has-icons-left has-icons-right">
+              <input
+                class="input is-success name"
+                type="text"
+                placeholder="Write your Name"
+                value=""
+                maxlength="7"
+                required
+              />
+              <span class="icon is-small is-left">
+                <i class="fas fa-user"></i>
+              </span>
+              <span class="icon is-small is-right">
+                <i class="fas fa-check"></i>
+              </span>
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label">연락처</label>
+            <div class="control has-icons-left has-icons-right">
+              <input
+                class="input is-success phone"
+                type="text"
+                placeholder="010-1234-5678"
+                value=""
+                maxlength="15"
+                required
+              />
+              <span class="icon is-small is-left">
+                <i class="fa-solid fa-phone"></i>
+              </span>
+              <span class="icon is-small is-right">
+                <i class="fas fa-check"></i>
+              </span>
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label">배송지 정보</label>
+            <div class="control has-icons-left has-icons-right">
+              <input
+                class="input is-success address"
+                type="address"
+                placeholder="주소를 적어주세요"
+                value=""
+                required
+              />
+              <span class="icon is-small is-left">
+                <i class="fa-sharp fa-solid fa-house"></i>
+              </span>
+              <span class="icon is-small is-right">
+                <i class="fas fa-check"></i>
+              </span>
+            </div>
+          </div>
+
+          <label class="label">상품목록</label>
+          <div class="orderItem_container"></div>
+
+          <div class="order_result_container">
+            <div class="control">
+              <div class="box">총가격</div>
+            </div>
+            <div class="control">
+              <button class="button is-link submit">주문하기</button>
+            </div>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">copyRight by : 코지마</div>
+    </footer>
+  </body>
+</html>

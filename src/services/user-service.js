@@ -1,4 +1,4 @@
-import { userModel } from "../db";
+import { userModel } from "../db/index.js";
 
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
@@ -9,6 +9,9 @@ class UserService {
     this.userModel = userModel;
   }
 
+  async findAll(){
+    return userModel.findAll();
+  }
   // 회원가입
   async addUser(userInfo) {
     // 객체 destructuring
@@ -81,9 +84,8 @@ class UserService {
   }
 
   // 유저정보 수정, 현재 비밀번호가 있어야 수정 가능함.
-  async setUser(userInfoRequired, toUpdate) {
+  async setUser({ userId, currentPassword }, toUpdate) {
     // 객체 destructuring
-    const { userId, currentPassword } = userInfoRequired;
 
     // 우선 해당 id의 유저가 db에 있는지 확인
     let user = await this.userModel.findById(userId);

@@ -1,5 +1,5 @@
 import { model } from "mongoose";
-import { UserSchema } from "../schemas/user-schema";
+import { UserSchema } from "../schemas/user-schema.js";
 
 const User = model("users", UserSchema);
 
@@ -31,6 +31,10 @@ export class UserModel {
     const updatedUser = await User.findOneAndUpdate(filter, update, option);
     return updatedUser;
   }
+
+  async dangerousDeleteAll() {
+    await User.deleteMany({});
+}
 }
 
 const userModel = new UserModel();
