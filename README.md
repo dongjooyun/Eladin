@@ -1,5 +1,7 @@
 <div align="middle"> <h1>Eladin 도서 판매 서비스</h1> </div>
-<div align="middle"> <img alt="엘라딘 로고" src="https://user-images.githubusercontent.com/47781507/210138012-8aaadec0-77b7-4e9d-9b22-c119396d3345.png" width=300> </div><br>
+<div align="middle"> <img alt="엘라딘 로고" src="https://user-images.githubusercontent.com/47781507/210138012-8aaadec0-77b7-4e9d-9b22-c119396d3345.png" width=300> </div>
+
+<br />
 
 ## 1. 서비스 개요
 
@@ -23,8 +25,6 @@ Eladin(엘라딘)
 
 복잡한 절차 없이 도서를 빨리 구매하고 싶은 사람
 
-<br />
-
 ## 2. 팀원 소개
 
 | 이름   | 담당 업무       |
@@ -35,19 +35,13 @@ Eladin(엘라딘)
 | 서윤지 | 팀원/백엔드     |
 | 이수빈 | 팀원/프론트엔드 |
 
-<br />
-
 ## 3. 서비스 설명
-
-<br />
 
 ### 3-1. 서비스 도메인
 
-### https://eladin-lgurfdxfjq-du.a.run.app/ 
+🔗 https://eladin-lgurfdxfjq-du.a.run.app/ 
 
-> ⚠ 서버가 내려간 상태입니다.
-
-<br />
+> ⚠ 현재 서버가 내려간 상태입니다. (22.11.27 ~)
 
 ### 3-2. 테스트 계정
 
@@ -56,13 +50,9 @@ Eladin(엘라딘)
 | Admin | cozyma@elice.com  | 12345678 |
 | User  | python3@naver.com | python3! |
 
-<br />
-
 ### 3-3. API 문서
 
-### https://documenter.getpostman.com/view/18622149/2s8YRqjqCg
-
-<br />
+🔗 https://documenter.getpostman.com/view/18622149/2s8YRqjqCg
 
 ### 3-4. 서비스 주요 기능
 
@@ -76,34 +66,28 @@ Eladin(엘라딘)
 6. 장바구니에서 주문 목록 조회, 주문 완료 후 주문 정보 **조회 및 삭제** 가능
 7. 관리자: 주문, 카테고리, 도서 **CRUD** 가능
 
-<br>
-
-### 3-5. 페이지 별 화면
+### 3-5. 페이지별 화면
 
 |                                              |                                              |
 | -------------------------------------------- | -------------------------------------------- |
-| ![image](/uploads/8fb1ebf97b41df89fd9fbe875da1fe0d/image.png) | ![image](/uploads/2b487e4eab49751c7345ca6ca75e01ba/image.png) |
+| ![image](https://user-images.githubusercontent.com/47781507/211983363-e1deb470-5c33-42e8-85b3-156103bc5af4.png) | ![image](https://user-images.githubusercontent.com/47781507/211983489-13285d66-fff3-4d48-9858-7f917352ea42.png) |
 | 메인 페이지                                  | 회원가입 페이지                                |
-| ![image](/uploads/080db94a3c0dd6270fbd3ad8003ab43d/image.png) | ![image](/uploads/1c1897a1b7d828aa8e0a840772bc5630/image.png)                                             |
+| ![image](https://user-images.githubusercontent.com/47781507/211983632-3709db4e-cfd4-4559-840e-9c9849ab573c.png) | ![image](https://user-images.githubusercontent.com/47781507/211983658-12967aed-495f-4824-8193-93068b78d00d.png)                                             |
 | 로그인 페이지                                | 카테고리별 도서 리스트 페이지                         |
-| ![image](/uploads/e3f82f2b0984f1fa8b2df5f084007319/image.png) | ![image](/uploads/68defb35ccb0e21a3056159394748a6d/image.png)                                             |
+| ![image](https://user-images.githubusercontent.com/47781507/211983711-6d57a592-5c1a-475c-bdd4-eb718105f472.png) | ![image](https://user-images.githubusercontent.com/47781507/211983762-a7cd25fe-590a-4350-af4a-9d824874f1dd.png)                                             |
 | 도서 상세 정보 페이지                                | 장바구니 페이지                         |
-| ![image](/uploads/135b5d757cfabff0dc03278b8d572cd8/image.png) | ![image](/uploads/62a25db17190584bf671811ccd211d89/image.png)                                             |
+| ![image](https://user-images.githubusercontent.com/47781507/211983793-06a8e365-d6bc-4a70-946a-059b65925772.png) | ![image](https://user-images.githubusercontent.com/47781507/211983923-1b87ad24-b868-492d-b27f-0e175c3d00fc.png)                                             |
 | 주문 페이지(장바구니 페이지 하단)                                | 주문 완료 모달                         |
-| ![image](/uploads/6a36418e0032e1e5bff5cc4811641cb0/image.png) | ![image](/uploads/ea71b33ceb604664138bcf62f98a644f/image.png)                                             |
+| ![image](https://user-images.githubusercontent.com/47781507/211983984-3ae86a6d-e7fe-49c7-bdf4-a06b182b9d02.png) | ![image](https://user-images.githubusercontent.com/47781507/211984013-c5f64771-5148-4c54-91e2-33656c9737bc.png)                                             |
 | 마이페이지                                | 관리자페이지                         |
 
-<br />
-
 ## 4. 기술 스택
-
-<!-- ![image](https://i.ibb.co/N34mXzy/image.png) -->
 
 ### 4-1. Language
 
 |                                                                                                                   Javascript                                                                                                                    |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| <img src="https://w.namu.la/s/18f590719ba62222718f1a68efcad20118c422b146650c97162d782ef9995d28326d1011cfb37595d9c60d66a05b343556e520204383d4429456fb54ca6bbf5af4478dcda8d69b01f1ff11d5ff591da7589496b4d6b76b740c744af82c8786c9" width="100px"/> |
+| <img src="https://user-images.githubusercontent.com/47781507/211984357-d21bfff6-ab8a-47c1-a6df-3edb95af6d47.png" width="100px"/> |
 
 ### 4-2. FE
 
@@ -117,21 +101,74 @@ Eladin(엘라딘)
 | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------: |
 | <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2Fd9ZeBr%2FbtrH5eJpnMq%2FPK52szk1xNqGtGHp7RJoi1%2Fimg.png" width="100px"/> | <img src="https://assets.website-files.com/61ca3f775a79ec5f87fcf937/6202fcdee5ee8636a145a41b_1234-p-500.png" width="100px"/> | <img src="https://www.logo.wine/a/logo/Google_Storage/Google_Storage-Logo.wine.svg" width="100px"/> | <img src="https://www.strongdm.com/hubfs/21126185/Technology%20Images/603c5eb831820c3ce6a8f057_603a1586fa052d17fc2a6929_MongoDBAtlas.png" width="100px"/> | <img src="https://avatars.githubusercontent.com/u/7552965?s=200&v=4g" width="100px"/> |
 
-<br />
-
 ## 5. 구조
 
 ### 5-1. 인프라 구조
 
-![image](/uploads/8641e64efcb2892e86fcd1bf11630892/image.png)<br />
+<img src="https://user-images.githubusercontent.com/47781507/211985546-cd5ddc4b-afd1-4bcf-bf86-640bc9363099.png" width="600px"/>
 
 ### 5-2. 폴더 구조
 
-- 프론트: `src/views` 폴더
-- 백: `src/views` 이외 폴더 전체
-- 실행: **프론트, 백 동시에 express로 실행**
-
-<br />
+- Front-End: `src/views` 폴더
+- Back-End: `src/views` 이외 폴더 전체
+- Running: 프론트, 백 동시에 express로 실행
+- Directory tree
+```bash
+┌─db
+│  ├─models
+│  └─schemas
+├─middlewares
+├─routers
+├─services
+└─views
+    ├─admin-page
+    │  ├─component
+    │  │  └─eventFn
+    │  │      ├─categoryFn
+    │  │      ├─ItemFn
+    │  │      └─orderFn
+    │  ├─image
+    │  └─pages
+    │      ├─add_item
+    │      │  └─component
+    │      │      └─eventFn
+    │      └─modify_item
+    │          └─component
+    │              └─eventFn
+    ├─cart
+    │  ├─component
+    │  │  └─eventFn
+    │  ├─image
+    │  └─util
+    ├─category-booklist
+    │  ├─components
+    │  │  └─eventFn
+    │  └─image
+    ├─home
+    │  └─image
+    ├─login
+    │  ├─component
+    │  └─image
+    ├─my-page
+    │  ├─component
+    │  │  └─eventFn
+    │  ├─image
+    │  └─page
+    │      └─component
+    │          └─eventFn
+    ├─nav
+    │  └─component
+    ├─product-detail
+    │  ├─component
+    │  │  └─eventFn
+    │  ├─data
+    │  ├─image
+    │  └─util
+    └─register
+        ├─component
+        │  └─eventFn
+        └─image
+```
 
 ## 6. 실행 방법
 
@@ -159,8 +196,7 @@ PORT=8000
 ```bash
 npm start
 ```
-<br>
 
 ## 7. 버전
 
-### 1.0.0
+### 0.0.1
