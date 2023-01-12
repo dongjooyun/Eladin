@@ -25,36 +25,26 @@ Eladin(엘라딘)
 
 복잡한 절차 없이 도서를 빨리 구매하고 싶은 사람
 
-## 2. 팀원 소개
+## 2. 서비스 설명
 
-| 이름   | 담당       |
-| ------ | --------------- |
-| 윤동주 | `팀장` `프론트엔드` |
-| 김유정 | `프론트엔드` |
-| 김혜민 | `백엔드`     |
-| 서윤지 | `백엔드`     |
-| 이수빈 | `프론트엔드` |
-
-## 3. 서비스 설명
-
-### 3-1. 서비스 도메인
+### 2-1. 서비스 도메인
 
 🔗 https://eladin-lgurfdxfjq-du.a.run.app/ 
 
 > ⚠ 현재 서버가 내려간 상태입니다. (22.11.27 ~)
 
-### 3-2. 테스트 계정
+### 2-2. 테스트 계정
 
 | Role  | ID                | PW       |
 | ----- | ----------------- | -------- |
 | Admin | cozyma@elice.com  | 12345678 |
 | User  | python3@naver.com | python3! |
 
-### 3-3. API 문서
-
+### 2-3. API 문서
+![image](https://img.shields.io/badge/Postman-black?style=for-the-badge&logo=postman&logoColor=) <br />
 🔗 https://documenter.getpostman.com/view/18622149/2s8YRqjqCg
 
-### 3-4. 서비스 주요 기능
+### 2-4. 서비스 주요 기능
 
 #### 제품 등록, 장바구니 추가, 주문하기 등 쇼핑몰의 핵심 서비스 구현
 
@@ -66,7 +56,7 @@ Eladin(엘라딘)
 6. 장바구니에서 주문 목록 조회, 주문 완료 후 주문 정보 **조회 및 삭제** 
 7. 관리자: 주문, 카테고리, 도서 **CRUD** 
 
-### 3-5. 페이지별 화면
+### 2-5. 페이지별 화면
 
 |                                              |                                              |
 | -------------------------------------------- | -------------------------------------------- |
@@ -81,29 +71,29 @@ Eladin(엘라딘)
 | ![image](https://user-images.githubusercontent.com/47781507/211983984-3ae86a6d-e7fe-49c7-bdf4-a06b182b9d02.png) | ![image](https://user-images.githubusercontent.com/47781507/211984013-c5f64771-5148-4c54-91e2-33656c9737bc.png)                                             |
 | 마이페이지                                | 관리자페이지                         |
 
-## 4. 기술 스택
+## 3. 기술 스택
 
-### 4-1. Language
+### 3-1. Language
 ![image](https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=JavaScript&logoColor=)
 
-### 4-2. Front-End
+### 3-2. Front-End
 - CSS Framework <br />
 ![image](https://img.shields.io/badge/Bulma-black?style=for-the-badge&logo=Bulma&logoColor=)
 - Data storage <br />
 ![image](https://img.shields.io/badge/Local%20Storage-black?style=for-the-badge) ![image](https://img.shields.io/badge/Session%20Storage-black?style=for-the-badge)
 
-### 4-3. Back-End
+### 3-3. Back-End
 ![image](https://img.shields.io/badge/Node.JS-black?style=for-the-badge&logo=Node.js&logoColor=) ![image](https://img.shields.io/badge/Express-black?style=for-the-badge&logo=express&logoColor=) <br />
 ![image](https://img.shields.io/badge/Google%20Cloud%20Platform-black?style=for-the-badge&logo=google%20cloud&logoColor=) <br />
 ![image](https://img.shields.io/badge/MongoDB%20Atlas-black?style=for-the-badge&logo=mongoDB&logoColor=) ![image](https://img.shields.io/badge/Mongoose-black?style=for-the-badge)
 
-## 5. 프로젝트 구조
+## 4. 프로젝트 구조
 
-### 5-1. 인프라 구조
+### 4-1. 인프라 구조
 
 <img src="https://user-images.githubusercontent.com/47781507/211985546-cd5ddc4b-afd1-4bcf-bf86-640bc9363099.png" width="600px"/>
 
-### 5-2. 폴더 구조
+### 4-2. 폴더 구조
 
 - Front-End: `src/views` 폴더
 - Back-End: `src/views` 이외 폴더 전체
@@ -166,12 +156,22 @@ Eladin(엘라딘)
         └─image
 ```
 
+## 5. 팀원 소개
+
+| 이름   | 담당       |
+| ------ | --------------- |
+| 윤동주 | `팀장` `프론트엔드` |
+| 김유정 | `프론트엔드` |
+| 김혜민 | `백엔드`     |
+| 서윤지 | `백엔드`     |
+| 이수빈 | `프론트엔드` |
+
 ## 6. 실행 방법
 
 ### 6-1. 레포지토리를 클론하고자 하는 디렉토리에서 아래 명령어 수행
 
 ```bash
-git clone https://kdt-gitlab.elice.io/sw_track/class_03/web_project/team4/eladin.git
+git clone https://github.com/dongjooyun/Eladin.git
 ```
 
 ### 6-2. 클론한 디렉토리에서 backend 디렉토리로 들어가 아래 명령어를 통해 Backend에서 필요한 module 설치
