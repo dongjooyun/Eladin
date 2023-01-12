@@ -193,6 +193,6 @@ PORT=8000
 npm start
 ```
 
-## 7. 
+## 7. Version
 
 ### 0.0.1
